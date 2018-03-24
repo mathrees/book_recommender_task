@@ -13,19 +13,19 @@ Move .csv files from repo/Data folder into the current working directory contain
 "test_user_book.csv" is dummied to test work
 
 
-__Versions__
-Python 3.6.3
-Pandas 0.20.3
-Numpy 1.13.3
-Keras 2.1.2
-TensorFlow 1.4.0
-scikit-learn 0.19.1
+__Versions__  
+Python 3.6.3  
+Pandas 0.20.3  
+Numpy 1.13.3  
+Keras 2.1.2  
+TensorFlow 1.4.0  
+scikit-learn 0.19.1  
 
 
 
 __SETTING UP__
 
-Assuming python, python path etc is correctly set up...
+Assuming python, python path etc is correctly set up.
 As well as Tensorflow, and other python packages...
 If not, refer to package documentations for installation instructions
 
@@ -53,9 +53,9 @@ E.G:
     python BookTrainer.py "user_book.csv" "user_char.csv"
 
 
-This trains the model and saves the following to the current working directory:
-"model.h5" - Neural Network Model Weights
-"model.json" - Neural Network Model details
+This trains the model and saves the following to the current working directory:  
+"model.h5" - Neural Network Model Weights  
+"model.json" - Neural Network Model details  
 "BookRecommendationResults.csv" - Top 10 Book Recommendations for users with missing book selection data
 
 Note: The User_IDs must align in the two CSVs
@@ -80,7 +80,7 @@ E.G.
 This takes data from test_user_char.csv and generates the top 10 recommendations and saves them in: 
 "BookRecommendationResults.csv" - Top 10 Book Recommendations for users with missing book selection data
 
-Hamming_Loss is used as the evaluation metric and is printed on the command line
+Hamming_Loss is used as the evaluation metric and is printed on the command line  
 Hamming_Loss is the fraction of labels that are incorrectly predicted
 
 Note: The User_IDs must align in the two CSVs
