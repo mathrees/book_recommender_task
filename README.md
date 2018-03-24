@@ -84,4 +84,4 @@ Hamming_Loss is used as the evaluation metric and is printed on the command line
 Hamming_Loss is the fraction of labels that are incorrectly predicted
 
 Note: The User_IDs must align in the two CSVs
-__NOTE #2: THE 10 USERS HAVE DIFFERENT RECOMMENDATION DURING TESTING BECAUSE I EDITED THE USER_CHAR.CSV DATA TO MAKE TEST_USER_CHAR.CSV
+__NOTE #2: THE 10 USERS HAVE DIFFERENT RECOMMENDATION DURING TESTING BECAUSE I EDITED THE USER_CHAR.CSV DATA TO MAKE TEST_USER_CHAR.CSV__
